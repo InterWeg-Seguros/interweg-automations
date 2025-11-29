@@ -92,5 +92,34 @@ module.exports = {
   "Zurich": {
     assistencia: { capital: "4020-4848", interior: "0800-729-1400" },
     sinistro: { capital: "4020-4848", interior: "0800-285-4141" }
-  }
+  },
+  "QBE Seguros": {
+  assistencia: { capital: "0800-770-1890", interior: "0800-770-1890" },
+  sinistro:   { capital: "0800-770-1890", interior: "0800-770-1890" }
+},
+"Sancor Seguros": {
+  assistencia: { capital: "0800-702-1287", interior: "0800-702-1287" },
+  sinistro:   { capital: "0800-702-1287", interior: "0800-702-1287" }
+},
+"Pottencial Seguradora": {
+  assistencia: { capital: "0800-285-4180", interior: "0800-285-4180" },
+  sinistro:   { capital: "0800-285-4180", interior: "0800-285-4180" }
+},
+"Caixa Seguradora (Auto/Youse)": {
+  assistencia: { capital: "3003-7700", interior: "0800-730-9901" },
+  sinistro:   { capital: "3003-9901", interior: "0800-730-9901" }
+},
+"Santander Auto": {
+  assistencia: { capital: "3003-0330", interior: "0800-123-0330" },
+  sinistro:   { capital: "3003-0330", interior: "0800-123-0330" }
+},
+"BB Seguros": {
+  assistencia: { capital: "0800-729-0700", interior: "0800-729-0700" },
+  sinistro:   { capital: "0800-729-7000", interior: "0800-729-7000" }
+},
+"Too Seguros": {
+  assistencia: { capital: "0300-313-8800", interior: "0300-313-8800" },
+  sinistro:   { capital: "0300-313-8800", interior: "0300-313-8800" }
+},
+
 };
