@@ -34,3 +34,13 @@ Ela foi pensada para ser consumida por ferramentas de automação como **n8n**,
 ├── package.json     # Metadados do projeto e scripts npm
 ├── package-lock.json
 └── .gitignore
+
+# 1. Clonar o repositório
+git clone https://github.com/InterWeg-Seguros/interweg-automations.git
+cd interweg-automations
+
+# 2. Instalar dependências
+npm install
+
+# 3. Subir o servidor
+npm start        # ou node index.js, dependendo do script definido no package.json
