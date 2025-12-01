@@ -34,6 +34,7 @@ Ela foi pensada para ser consumida por ferramentas de automação como **n8n**,
 ├── package.json     # Metadados do projeto e scripts npm
 ├── package-lock.json
 └── .gitignore
+```
 
 # 1. Clonar o repositório
 git clone https://github.com/InterWeg-Seguros/interweg-automations.git
@@ -44,3 +45,10 @@ npm install
 
 # 3. Subir o servidor
 npm start        # ou node index.js, dependendo do script definido no package.json
+
+# GET /seguradoras
+Retorna a lista de seguradoras configuradas no projeto.
+
+Exemplo de requisição
+curl http://localhost:3000/seguradoras
+
